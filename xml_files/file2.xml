@@ -1,0 +1,63 @@
+<company xmlns="http://example.com/ns">
+    <department name="Engineering" floor="5">
+        <employee id="E101" type="full-time">
+            <personal>
+                <name>Johnathan Doe</name> <!-- Value length change here -->
+                <age>30</age>
+                <contact>
+                    <email>john.doe@example.com</email>
+                    <phone>+1-555-1234</phone>
+                </contact>
+            </personal>
+            <job role="Senior Developer"> <!-- Role title changed -->
+                <skills>
+                    <skill>Python</skill>
+                    <skill>Java</skill>
+                    <skill>C++</skill> <!-- New skill added -->
+                </skills>
+                <id>1</id>
+                <experience years="6" /> <!-- Experience changed -->
+                <salary currency="USD">85000</salary> <!-- Salary updated -->
+            </job>
+        </employee>
+    </department>
+    <department name="Design" floor="3">
+        <employee id="E102" type="part-time">
+            <personal>
+                <name>Jane Smith</name>
+                <age>28</age>
+                <contact>
+                    <email>jane.smith@example.com</email>
+                    <phone>+1-555-5678</phone>
+                </contact>
+            </personal>
+            <job role="Senior Designer"> <!-- Role title changed -->
+                <skills>
+                    <skill>Photoshop</skill>
+                    <skill>Illustrator</skill>
+                </skills>
+                <experience years="4" /> <!-- Experience changed -->
+                <salary currency="USD">70000</salary> <!-- Salary updated -->
+            </job>
+        </employee>
+    </department>
+    <department name="HR" floor="2"> <!-- New department added -->
+        <employee id="E103" type="full-time">
+            <personal>
+                <name>Alice Johnson</name>
+                <age>35</age>
+                <contact>
+                    <email>alice.johnson@example.com</email>
+                    <phone>+1-555-9876</phone>
+                </contact>
+            </personal>
+            <job role="HR Manager">
+                <skills>
+                    <skill>Recruitment</skill>
+                </skills>
+                <experience years="10" />
+                <salary currency="USD">95000</salary>
+            </job>
+        </employee>
+    </department>
+</company>

@@ -1,0 +1,42 @@
+<company xmlns="http://example.com/ns">
+    <department name="Engineering" floor="5">
+        <employee id="E101" type="full-time">
+            <personal>
+                <name>John Doe</name>
+                <age>30</age>
+                <contact>
+                    <email>john.doe@example.com</email>
+                    <phone>+1-555-1234</phone>
+                </contact>
+            </personal>
+            <job role="Developer">
+                <skills>
+                    <skill>Python</skill>
+                    <skill>Java</skill>
+                </skills>
+                <experience years="5" />
+                <salary currency="USD">80000</salary>
+            </job>
+        </employee>
+    </department>
+    <department name="Design" floor="3">
+        <employee id="E102" type="part-time">
+            <personal>
+                <name>Jane Smith</name>
+                <age>28</age>
+                <contact>
+                    <email>jane.smith@example.com</email>
+                    <phone>+1-555-5678</phone>
+                </contact>
+            </personal>
+            <job role="Designer">
+                <skills>
+                    <skill>Photoshop</skill>
+                    <skill>Illustrator</skill>
+                </skills>
+                <experience years="3" />
+                <salary currency="USD">60000</salary>
+            </job>
+        </employee>
+    </department>
+</company>
