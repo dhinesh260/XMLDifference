@@ -116,12 +116,15 @@ def narrate_differences(file1, file2, output_file):
 
 
 if __name__ == '__main__':
-    print(sys.argv, len(sys.argv))
+    print('Given arguments: ', sys.argv)
+    print('# of arguments: ', len(sys.argv))
     if len(sys.argv) == 4:
-        file1 = sys.argv[1]
-        file2 = sys.argv[2]
-        output_file = sys.argv[3]
+        file1 = 'xml_files/' + sys.argv[1]
+        file2 = 'xml_files/' + sys.argv[2]
+        output_file = 'comparison_report/' + sys.argv[3]
+
         narrate_differences(file1, file2, output_file)
+        print('Comparision report created.')
     else:
         print('Three arguments must be provided, 1. file1 name, 2. file2 name, 3. output file name')
         sys.exit()
