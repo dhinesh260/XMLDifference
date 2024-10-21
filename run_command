@@ -1,0 +1,1 @@
+python -u xml_dff.py file1.xml file2.xml output.txt
